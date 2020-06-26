@@ -25,7 +25,7 @@ app
   .put("/user/:id", updateUser)
   .delete("/user/:id", deleteUser)
   .get("/tasks", getTasks)
-  .post("/newTask", createTask)
+  .post("/tasks", createTask)
   .start({ port: 4000 });
 
 console.log(`server listening on http://localhost:4000`);
