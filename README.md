@@ -17,12 +17,12 @@ Modules use:
 ## Endpoint Router
 ```
   get /users
-  post /newUser
-  get /user/:id
-  put /user/:id
-  delete /user/:id
+  post /users
+  get /users/:id
+  put /users/:id
+  delete /users/:id
   get /tasks
-  post /newTask
+  post /tasks
 ```
 
 ## Post
