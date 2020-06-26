@@ -21,9 +21,9 @@ app.use(ErrorMiddleware);
 app
   .get("/users", getAllUsers)
   .post("/users", createUser)
-  .get("/user/:id", getUser)
-  .put("/user/:id", updateUser)
-  .delete("/user/:id", deleteUser)
+  .get("/users/:id", getUser)
+  .put("/users/:id", updateUser)
+  .delete("/users/:id", deleteUser)
   .get("/tasks", getTasks)
   .post("/tasks", createTask)
   .start({ port: 4000 });
